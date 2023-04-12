@@ -283,7 +283,7 @@ code into specific code by filling in the concrete types that are used when
 compiled. In this process, the compiler does the opposite of the steps we used
 to create the generic function in Listing 10-5: the compiler looks at all the
 places where generic code is called and generates code for the concrete types
-the generic code is called with.
+where the generic code is called with.
 
 Let’s look at how this works by using the standard library’s generic
 `Option<T>` enum:
